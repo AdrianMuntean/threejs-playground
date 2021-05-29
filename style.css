@@ -1,0 +1,53 @@
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.button {
+  position: absolute;
+  width: 10rem;
+  height: 3rem;
+  z-index: 1;
+  font-size: 16px;
+  background-color: azure;
+  cursor: pointer;
+  display: none;
+}
+
+.button:hover {
+  background-color: aqua;
+}
+
+.incX {
+  top: 50px;
+  right: 100px;
+}
+
+.incY {
+  top: 100px;
+  right: 100px;
+}
+
+.incZ {
+  top: 150px;
+  right: 100px;
+}
+
+.icon {
+  z-index: 1;
+  position: absolute;
+  height: 7rem;
+  cursor: pointer;
+}
+
+.menuIcon {
+  top: 50px;
+  right: 50px;
+}
+
+.iconClose {
+  top: 200px;
+  right: 120px;
+  display: none;
+}
